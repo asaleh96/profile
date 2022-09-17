@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Noto+Sans+JP:wght@300&family=Open+Sans:ital@1&family=Roboto+Mono&display=swap');
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: #0d1b2a;
+  padding-bottom: 25px;
+}
+
+h2 {
+  color: #1b263b;
+  font-family: 'Caveat', cursive;
+}
+
+.personal-details {
+  color: #415a77;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 20px;
+}
+
+.img-circle {
+  width: 200px;
+  border-radius: 100px;
+}
+
+#profile_photo {
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+
+body {
+  background-color: #1B263B;
+  font-family: 'Open Sans', sans-serif;
+  margin: 8px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 20px auto;
+  width: 600px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0px;
+}
+
+.intro-card {
+  padding: 5px 20px;
+  margin: 20px 0px;
+  text-align: center;
+  background-color: #e0e1dd;
+  border-radius: 5px;
+}
+
+.footer {
+  padding: 5px 20px;
+  margin: 20px 0px;
+  text-align: center;
+  background-color: #e0e1dd;
+  border-radius: 5px;
+}
+
+.details-icon {
+  padding: 0px 10px 10px 10px;
+  font-size: 25px;
+}
+
+.follow {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+
+.follow:hover {
+  color: grey;
+}
+
+#follow-me {
+  padding-top: 1.5px;
+  margin: 0px;
+}
+
+.details-card {
+  padding: 5px;
+  margin: 5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+}
