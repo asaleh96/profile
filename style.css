@@ -58,7 +58,10 @@ a {
 
 .intro-card {
   padding: 5px 20px;
-  margin: 20px 0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
   text-align: center;
   background-color: #e0e1dd;
   border-radius: 5px;
@@ -66,7 +69,9 @@ a {
 
 .footer {
   padding: 5px 20px;
-  margin: 20px 0px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
   text-align: center;
   background-color: #e0e1dd;
   border-radius: 5px;
