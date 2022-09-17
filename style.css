@@ -52,6 +52,8 @@ a {
 .list-inline li {
   display: inline;
   padding: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .intro-card {
@@ -73,16 +75,17 @@ a {
 .details-icon {
   padding: 0px 10px 10px 10px;
   font-size: 25px;
+  color: #415A77
 }
 
 .follow {
-  color: black;
+  color: #415A77;
   font-size: 50px;
   text-align: center;
 }
 
 .follow:hover {
-  color: grey;
+  color: #1B263B;
 }
 
 #follow-me {
